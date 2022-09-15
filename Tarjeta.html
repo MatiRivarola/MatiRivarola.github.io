@@ -6,6 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tarjeta</title>
     <style>
+        * {
+        
+            font: 'Times New Roman', Times, serif;
+        }
+        body{
+            background: rgb(255,255,255);
+            background: radial-gradient(circle, rgb(255,255,255) 14%, rgba(229,251,248,1) 77%);
+        }
+        @media(min-width: 300px) {
+            header {
+                width:388px ;
+                height: 30px;
+                border-color: black;
+                border-style: groove;
+                border-radius: 10px;
+                text-align: center;
+                font-size: 24px;
+           }
+        }
         section{
          width: 100%;
          display: flex;
@@ -28,7 +47,6 @@
         }
         @media(max-width: 300px){
             .card {
-                display: none;
                 width: 600px;
                 height: 600px;
                 background: rgb(246,252,255);
@@ -41,6 +59,9 @@
 </style>
 </head>
 <body>
+    
+    <header>Matias rivarola portafolio</header>
+    <nav>Barra de navegacion de mi pagina</nav>
     <section>
         <div class="card">
             <img src="https://images.pexels.com/photos/418831/pexels-photo-418831.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="tree"> 
@@ -48,5 +69,7 @@
         </div>
             
     </section>
+    <article>Aca vamos a poner un pequeño articulo sobre mi crecimiento</article>
+    <footer>Aca va nuestro pie de pagina</footer>
 </body>
 </html>
